@@ -1,0 +1,27 @@
+
+@charset "UTF-8";
+
+#contenedor{
+    margin-top: 25px; 
+    margin-left: 20px;
+    
+}
+
+#contenedor div{
+    display:flex; 
+    font-family: 'Lexend Deca', sans-serif;
+    background: #00d2ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);
+    background: linear-gradient(to right, #3a7bd5, #00d2ff);
+    border-radius: 20px;
+    width: 600px;
+}
+
+
+#contenedor div p{
+    margin-top: 15px;
+    margin-left: 25px;
+    font-weight: bold;
+    color: white;
+
+}
